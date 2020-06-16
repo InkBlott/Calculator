@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Calculator</title>
+        <meta name="Calculator" content="Calculator">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="contentWrapper">
+            <div class="calcWrapper">
+                <h1 style = "color: orange; text-align: center;"> Calculator </h1>
+                <div class="calc">
+                    <div id="screen">
+                        <div class="history text"></div>
+                        <div class="current text"></div>
+                    </div>
+                    <button type="button" data-key="clear" class="button text operator">C</button>
+                    <button type="button" data-key="clearAll" class="button text operator">CE</button>
+                    <button type="button" data-key="backspace" class="button text operator"><-</button>
+                    <button type="button" data-key="add" class="button text operator">+</button>
+                    <button type="button" data-key="7" class="button text">7</button>
+                    <button type="button" data-key="8" class="button text">8</button>
+                    <button type="button" data-key="9" class="button text">9</button>
+                    <button type="button" data-key="sub" class="button text operator">-</button>
+                    <button type="button" data-key="4" class="button text">4</button>
+                    <button type="button" data-key="5" class="button text">5</button>
+                    <button type="button" data-key="6" class="button text">6</button>
+                    <button type="button" data-key="mult" class="button text operator">*</button>
+                    <button type="button" data-key='1' class="button text">1</button>
+                    <button type="button" data-key="2" class="button text">2</button>
+                    <button type="button" data-key="3" class="button text">3</button>
+                    <button type="button" data-key="divide" class="button text operator">/</button>
+                    <button type="button" data-key="dot" class="button text">.</button>
+                    <button type="button" data-key="0" class="button text" >0</button>
+                    <button type="button" data-key="equals" class="button text" style="grid-column : 3/5; color: white; background-color: orange; border-radius: 20px;">=</button>
+            </button>
+            </div>
+        </div>
+
+        
+        <script src="Calc.js" async defer></script>
+    </body>
+</html>

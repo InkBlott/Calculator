@@ -1,0 +1,88 @@
+::-moz-focus-inner{border:0;}
+body{
+    background-color: #141414;
+    display: block;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.contentWrapper{
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.calc{
+    background-color: #212121;
+    border: 1px solid orange;
+    border-radius: 20px;
+    height: 90vw;
+    width: 80vw;
+    max-height: 400px;
+    max-width: 300px;
+    min-height: 300px;
+    min-width: 200px;
+    box-shadow: 2px 2px 3px orange;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 30px repeat(6, 1fr);
+    align-items: center;
+}
+
+#screen{
+    background-color: #141414;
+    min-height: 72px;
+    border-radius: 10px;
+    margin: 20px 10px 10px;
+    grid-column: 1/5;
+    grid-row: 1/3;
+    color: orange;
+    overflow: hidden;
+
+}
+
+.history{
+    text-align: end;
+    color: white;
+    padding: 5px;
+    height: 20px;
+    overflow: hidden;
+    font-size: 0.7rem;
+    
+}
+
+.text{
+    font-family: monospace;
+    font-weight: 600;
+}
+
+.current {
+    text-align: end;
+    padding: 0 5px 5px;
+    font-size: 1.9rem;
+}
+
+button {
+    text-align: center;
+    font-size: 1.9rem;
+    color: white;
+    margin: 5px;
+    background-color: #212121;
+    border: 0;
+    overflow: hidden;
+}
+button:hover{
+    scale: 1.1;
+}
+button:focus{
+    border-radius: 20px;
+    box-shadow: 0 0 3px orange;
+}
+.operator{
+    color:orange !important;
+}
+
+
+
