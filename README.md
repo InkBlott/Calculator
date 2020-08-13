@@ -1,5 +1,5 @@
 # Calculator
 
-https://inkblott.github.io/Calculator/index.html
+https://inkblott.github.io/Calculator/
 
 Calculator 
